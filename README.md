@@ -28,6 +28,11 @@ README.md
 ## 4. Cấu hình Nginx
 
 ## 5. Tường lửa UFW
-- 22/tcp
-- 8081:8083/tcp
-- 8080/tcp
+|To|Action|From|
+|22/tcp|ALLOW IN|Anywhere|
+|8081:8083/tcp|ALLOW IN|Anywhere|
+|8080/tcp|ALLOW IN|Anywhere|
+|22/tcp (v6)|ALLOW IN|Anywhere (v6)|
+|8081:8083/tcp (v6)|ALLOW IN|Anywhere (v6)|
+|8080/tcp (v6)|ALLOW IN|Anywhere (v6)|
+
